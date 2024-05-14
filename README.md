@@ -5,7 +5,9 @@ The dataset used in this project is here:
 https://www.kaggle.com/datasets/saharabdi/spacex
 
 
-The following link is a show-how to upload a dataset into SAS Viya:
+how to upload a dataset into SAS Viya:
 https://communities.sas.com/t5/SAS-Communities-Library/SAS-Viya-for-Learners-Individual-Data-Upload-Watch-and-Try/ta-p/901388
 
-data quality: The ID identifier column was added to the dataset, the data item format were transfmored where applicable, columns with the majority of values blank were removed; as they don't serve the analysis at this stage, and blank values remained were 
+Data prepare: The ID identifier column was added to the dataset, the data item format were transfmored where applicable.
+
+Data visualiation and exploration: payload mass was converted from the sum of payload mass to the avrage payload mass by frequnce percent. Payload type was added below to further explain the calculations.
